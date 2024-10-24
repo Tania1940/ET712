@@ -1,0 +1,69 @@
+*{box-sizing: border-box;}
+.content{
+    width: 3000px;
+    background-color: rgb(184, 159, 163);
+    padding: 20px;
+}
+/* SCROLLABLE IMAGE GALLERY */
+img{
+    width: 100%;
+    display: block;
+}
+.maincontainer, .gallerycontainer{
+    width: 1000px;
+    margin: auto;
+}
+.maincontainer{
+    position: relative;
+    z-index: 0;
+}
+.gallerycontainer{
+    overflow-x: scroll; /* enables horizontal scroll*/
+    white-space: nowrap;/* ensurenall images stay on the same line*/
+    position: relative;
+    z-index: 0;
+}
+.gallery-image{
+    display: inline-block;
+    width: 1000px;
+}
+.btnright, .btnleft{
+    position: absolute;
+    top: 40%;
+    z-index: 2;
+    background-color: rgba(236, 223, 223, 0.7);
+    border: none;
+    font-size: 2em;
+}
+.btnright:hover, .btnleft:hover{
+    cursor: pointer;
+    background-color: rgba(234, 138, 162, 0.6);
+}
+.btnright{
+    right: 1%;
+}
+.btnleft{
+    left: 1%;
+}
+
+/* to top scroll */
+html{
+    scroll-behavior: smooth;
+}
+.toTop{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    padding: 10px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+.toTop a{
+    color: white;
+    text-decoration: none;
+}
