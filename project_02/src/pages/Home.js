@@ -13,7 +13,7 @@ function Home() {
       </nav>
       <div className="home">
         <h1>Welcome to PreLuxe</h1>
-        <p>Luxury, pre-loved, always in style.</p>
+        <p>We buy and sell pre-owned luxury items, offering competitive prices for sellers and a curated selection of authenticated products for buyers. From designer handbags to fine jewelry, every piece is guaranteed authentic. Shop sustainably and indulge in luxury at great value while giving high-end items a second life.</p>
         <Link to="/chanel">
           <button>Explore More</button>
         </Link>
