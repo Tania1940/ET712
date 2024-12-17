@@ -45,6 +45,7 @@ function LouisVuitton() {
   return (
     <>
       <h1 className="page-title">Louis Vuitton Collection</h1>
+      <p className='info'>Louis Vuitton is a global symbol of luxury, innovation, and craftsmanship. Founded in 1854 by Louis Vuitton in Paris, the brand began by creating high-quality, durable travel trunks. Known for its iconic monogram canvas and timeless designs, Louis Vuitton offers handbags,luggage, ready-to-wear fashion, and accessories that blend style with functionality. The brand remains synonymous with elegance, status, and modern sophistication.</p>
       <hr/>
 
       <div className="product-page">

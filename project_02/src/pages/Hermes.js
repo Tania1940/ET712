@@ -45,6 +45,7 @@ function Hermès() {
   return (
     <>
       <h1 className="page-title">Hermès Collection</h1>
+      <p className='info'>Hermès is the epitome of timeless luxury and craftsmanship, renowned for its handmade Birkin and Kelly bags, iconic silk scarves, and meticulous attention to detail. Founded in 1837 by Thierry Hermès, the brand symbolizes elegance, exclusivity, and artistry that transcends generations.</p>
       <hr/>
 
       <div className="product-page">

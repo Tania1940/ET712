@@ -45,6 +45,7 @@ function Chanel() {
   return (
     <>
       <h1 className="page-title">Chanel Collection</h1>
+      <p className='info'>Chanel is a symbol of timeless elegance and luxury, founded by Coco Chanel in 1910. Known for revolutionizing women’s fashion, Chanel introduced the little black dress, the iconic Chanel suit, and the legendary Chanel No. 5 perfume. Combining simplicity, sophistication, and comfort, the brand remains a global leader in haute couture, accessories, and beauty, embodying style that transcends generations.</p>
       <hr/>
 
       <div className="product-page">
