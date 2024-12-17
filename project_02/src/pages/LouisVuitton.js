@@ -1,30 +1,54 @@
 import React from 'react';
 import Card from '../card';
 import { Link } from 'react-router-dom'; 
-import LouisVuittion1 from '../images/lv-backpack.jpg';
-import LouisVuittion2 from '../images/lv-handbag.jpg';
-import LouisVuittion3 from '../images/lv-luggage.jpg';
-import LouisVuittion4 from '../images/lv-shoes.jpg';
-import LouisVuittion5 from '../images/lv_jacket.jpg';
-import LouisVuittion6 from '../images/lv_wallet.jpg';
+import LouisVuitton1 from '../images/lv-backpack.jpg';
+import LouisVuitton2 from '../images/lv-handbag.jpg';
+import LouisVuitton3 from '../images/lv-luggage.jpg';
+import LouisVuitton4 from '../images/lv-shoes.jpg';
+import LouisVuitton5 from '../images/lv_jacket.jpg';
+import LouisVuitton6 from '../images/lv_wallet.jpg';
 
-function LouisVuittion() {
-  const LouisVuittionItems = [
-    { name: 'Louis Vuittion Backpack', image: LouisVuittion1, price: 200, brand: 'Louis Vuittion' },
-    { name: 'Louis Vuittion Handbag', image: LouisVuittion2, price: 700, brand: 'Louis Vuittion' },
-    { name: 'Louis Vuittion Luggage', image: LouisVuittion3, price: 1000, brand: 'Louis Vuittion' },
-    { name: 'Louis Vuittion Shoe', image: LouisVuittion4, price: 1300, brand: 'Louis Vuittion' },
-    { name: 'Louis Vuittion Jacket', image: LouisVuittion5, price: 2000, brand: 'Louis Vuittion' },
-    { name: 'Louis Vuittion Wallet', image: LouisVuittion6, price: 1100, brand: 'Louis Vuittion' },
+function LouisVuitton() {
+  const LouisVuittonItems = [
+    { 
+      name: 'Louis Vuitton Backpack', 
+      image: LouisVuitton1,  
+      description: 'A luxury backpack made from signature Louis Vuitton monogram canvas. Perfect for both casual and formal looks.'
+    },
+    { 
+      name: 'Louis Vuitton Handbag', 
+      image: LouisVuitton2, 
+      description: 'A timeless Louis Vuitton handbag designed to elevate your style with its elegant design and premium craftsmanship.'
+    },
+    { 
+      name: 'Louis Vuitton Luggage', 
+      image: LouisVuitton3,  
+      description: 'Travel in style with Louis Vuitton luggage, crafted from high-quality materials for durability and elegance.'
+    },
+    { 
+      name: 'Louis Vuitton Shoes', 
+      image: LouisVuitton4,  
+      description: 'Luxury shoes from Louis Vuitton that combine comfort and style with a sophisticated design.'
+    },
+    { 
+      name: 'Louis Vuitton Jacket', 
+      image: LouisVuitton5, 
+      description: 'An exclusive Louis Vuitton jacket designed for both luxury and functionality, perfect for any occasion.'
+    },
+    { 
+      name: 'Louis Vuitton Wallet', 
+      image: LouisVuitton6, 
+      description: 'A stylish Louis Vuitton wallet made from premium leather, offering both elegance and practicality.'
+    },
   ];
 
   return (
     <>
-      <h1 className="page-title">Louis Vuittion Collection</h1>
+      <h1 className="page-title">Louis Vuitton Collection</h1>
       <hr/>
 
       <div className="product-page">
-        {LouisVuittionItems.map((item) => (
+        {LouisVuittonItems.map((item) => (
           <Card key={item.name} {...item} />
         ))}
       </div>
@@ -45,4 +69,4 @@ function LouisVuittion() {
   );
 }
 
-export default LouisVuittion;
+export default LouisVuitton;

@@ -10,12 +10,36 @@ import chanel6 from '../images/men_wallet.webp';
 
 function Chanel() {
   const chanelItems = [
-    { name: 'Chanel Perfume', image: chanel1, price: 200, brand: 'Chanel' },
-    { name: 'Chanel Sunglasses', image: chanel2, price: 700, brand: 'Chanel' },
-    { name: 'Chanel Shoe', image: chanel3, price: 1000, brand: 'Chanel' },
-    { name: 'Chanel Wallet', image: chanel4, price: 1300, brand: 'Chanel' },
-    { name: 'Chanel Watch', image: chanel5, price: 2000, brand: 'Chanel' },
-    { name: 'Chanel Men Wallet', image: chanel6, price: 1100, brand: 'Chanel' },
+    { 
+      name: 'Chanel Perfume', 
+      image: chanel1,  
+      description: 'Chanel’s timeless perfume, embodying elegance and sophistication, perfect for any occasion.'
+    },
+    { 
+      name: 'Chanel Sunglasses', 
+      image: chanel2, 
+      description: 'Chanel sunglasses that combine luxury with style, ideal for those who want to make a bold statement.'
+    },
+    { 
+      name: 'Chanel Shoe', 
+      image: chanel3,  
+      description: 'A stunning pair of shoes from Chanel, blending comfort with chic fashion for any stylish outing.'
+    },
+    { 
+      name: 'Chanel Wallet', 
+      image: chanel4 , 
+      description: 'A luxurious leather wallet from Chanel, designed to be both functional and fashionable.'
+    },
+    { 
+      name: 'Chanel Watch', 
+      image: chanel5, 
+      description: 'A sophisticated Chanel watch, crafted to perfection, perfect for those who appreciate luxury timepieces.'
+    },
+    { 
+      name: 'Chanel Men Wallet', 
+      image: chanel6,  
+      description: 'A sleek men’s wallet from Chanel, made from premium materials and designed for elegance and utility.'
+    },
   ];
 
   return (
@@ -29,8 +53,8 @@ function Chanel() {
         ))}
       </div>
 
-    {/* Back to Home Button */}
-    <div className="back-to-home">
+      {/* Back to Home Button */}
+      <div className="back-to-home">
         <Link to="/">
           <button className="back-home-btn">Back to Home</button>
         </Link>
@@ -40,10 +64,8 @@ function Chanel() {
       <footer className="footer">
         <p>Created by Tania Akthar @ 2024</p>
       </footer>
-
     </>
   );
 }
 
 export default Chanel;
-

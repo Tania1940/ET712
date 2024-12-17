@@ -10,12 +10,36 @@ import Hermès6 from '../images/Hermès_Birkin.jpg';
 
 function Hermès() {
   const HermèsItems = [
-    { name: 'Hermès Belt', image: Hermès1, price: 200, brand: 'Hermès' },
-    { name: 'Hermès Sandals', image: Hermès2, price: 700, brand: 'Hermès' },
-    { name: 'Hermès Wallet', image: Hermès3, price: 1000, brand: 'Hermès' },
-    { name: 'Hermès Watch', image: Hermès4, price: 1300, brand: 'Hermès' },
-    { name: 'Hermès Scarf', image: Hermès5, price: 2000, brand: 'Hermès' },
-    { name: 'Hermès Birkin', image: Hermès6, price: 1100, brand: 'Hermès' },
+    { 
+      name: 'Hermès Belt', 
+      image: Hermès1,  
+      description: 'A luxurious belt designed with Hermès signature craftsmanship, perfect for adding elegance to any outfit.'
+    },
+    { 
+      name: 'Hermès Sandals', 
+      image: Hermès2, 
+      description: 'Stylish and comfortable, these Hermès sandals are made with premium leather for a sophisticated look.'
+    },
+    { 
+      name: 'Hermès Wallet', 
+      image: Hermès3,  
+      description: 'A sleek and durable wallet that combines style with functionality, crafted from the finest leather.'
+    },
+    { 
+      name: 'Hermès Watch', 
+      image: Hermès4,  
+      description: 'A refined timepiece that embodies Hermès’ elegance and attention to detail, perfect for any occasion.'
+    },
+    { 
+      name: 'Hermès Scarf', 
+      image: Hermès5, 
+      description: 'A luxurious silk scarf featuring intricate designs that elevate any outfit with timeless charm.'
+    },
+    { 
+      name: 'Hermès Birkin', 
+      image: Hermès6, 
+      description: 'The iconic Hermès Birkin bag, crafted from the finest leather, renowned for its elegance and exclusivity.'
+    },
   ];
 
   return (
